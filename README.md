@@ -5,12 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="#✨-核心特性">特性</a> •
-  <a href="#快速部署">快速部署</a> •
-  <a href="#⬆️-版本升级">升级</a> •
-  <a href="#🛠️-自定义开发">开发</a> •
-  <a href="#🌟-贡献">贡献</a> •
-  <a href="#changelog">更新日志</a>
+  <a href="#-核心特性">特性</a> •
+  <a href="#-版本亮点">版本亮点</a> •
+  <a href="#-快速部署">快速部署</a> •
+  <a href="#-环境变量说明">变量说明</a> •
 </p>
 
 <p align="center">
