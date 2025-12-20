@@ -810,16 +810,28 @@ tr:nth-child(even) {
 
 .site-card {
   border-radius: var(--card-radius);
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 .site-card-content {
   padding: var(--card-padding);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-/* 卡片悬停效果 - Copied from style.css */
-.site-card {
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  will-change: transform;
+.preview-card-fixed {
+  height: 220px;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .site-card:hover {
